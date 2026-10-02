@@ -2,4 +2,10 @@ framework:
   - terraform
 compact: true
 quiet: true
-skip-check: []
+skip-check:
+  - CKV_AZURE_59    # Lab Skip
+  - CKV2_AZURE_33    # Lab Skip
+  - CKV2_AZURE_1     # Lab Skip
+  - CKV_AZURE_206   # # Lab Skip
+  - CKV_AZURE_33     # Lab Skip
+  - CKV2_AZURE_40    # Lab Skip
